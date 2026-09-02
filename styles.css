@@ -28,8 +28,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px 0 15px 0;
-    margin-bottom: 20px;
+    padding: 5px 0 10px 0;
+    margin-bottom: 15px;
 }
 
 .header-logo {
@@ -187,7 +187,7 @@ body {
     }
 
     .header {
-        padding: 15px 0 20px 0;
+        padding: 8px 0 12px 0;
         margin-bottom: 30px;
     }
 
@@ -235,7 +235,7 @@ body {
     }
 
     .header {
-        padding: 20px 0 25px 0;
+        padding: 10px 0 15px 0;
         margin-bottom: 35px;
     }
 

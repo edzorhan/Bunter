@@ -4,27 +4,27 @@
             {
                 "item": "BUNTER BURGER",
                 "itemDesc": "120gr smash köfte,\ncift burger peyniri, trüf mayo,\nkaramelize soğan ve salatalık turşusu.",
-                "price": "470 TL"
+                "price": "450 TL"
             },
             {
                 "item": "CLASSIC SMASH",
                 "itemDesc": "120gr smash köfte,\ncift burger peyniri, burger sosu,\nbeyaz soğan ve Bunter turşusu.",
-                "price": "450 TL"
+                "price": "430 TL"
             },
             {
                 "item": "MISO SMASH BURGER",
                 "itemDesc": "120gr smash köfte,\ncift burger peyniri, Bunter sos,\nizgara soğan ve Bunter turşusu.",
-                "price": "470 TL"
+                "price": "450 TL"
             },
             {
                 "item": "SMOKY BACON BURGER",
-                "itemDesc": "120gr smash köfte,\ncift burger peyniri, dana bacon,\nkavrulmuş karabiberli sarımsaklı mayonez\nve çitir soğan",
-                "price": "480 TL"
+                "itemDesc": "120gr smash köfte,\ncift burger peyniri, dana bacon,\nkavrulmuş karabiberli sarımsaklı mayonez\nve çıtır soğan",
+                "price": "470 TL"
             },
             {
                 "item": "BUNTER CHICKEN",
-                "itemDesc": "Çitir tavuk, burger peyniri,\nballı hardal veya acılı lime mayonez\nve coleslaw.",
-                "price": "390 TL"
+                "itemDesc": "Çıtır tavuk, burger peyniri,\nballı hardal veya acılı lime mayonez\nve coleslaw.",
+                "price": "370 TL"
             }
         ],
         "fries": [
@@ -41,7 +41,7 @@
             {
                 "item": "Trüflü Patates",
                 "itemDesc": "",
-                "price": "170 TL"
+                "price": "160 TL"
             }
         ],
         "beverages": [
@@ -90,17 +90,17 @@
             {
                 "item": "Sweet Chili",
                 "itemDesc": "",
-                "price": "120 TL"
+                "price": "30 TL"
             },
             {
                 "item": "Bunter Sos",
                 "itemDesc": "",
-                "price": "120 TL"
+                "price": "30 TL"
             },
             {
                 "item": "Bunter Ranch",
                 "itemDesc": "",
-                "price": "170 TL"
+                "price": "30 TL"
             },
             {
                 "item": "Ketçap",
@@ -118,7 +118,7 @@
                 "price": ""
             },
             {
-                "item": "Acilı Sos",
+                "item": "Acılı Sos",
                 "itemDesc": "",
                 "price": ""
             }

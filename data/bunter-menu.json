@@ -1,0 +1,156 @@
+{
+    "menu": {
+        "burgers": [
+            {
+                "item": "BUNTER BURGER",
+                "itemDesc": "120gr smash köfte,\ncift burger peyniri, trüf mayo,\nkaramelize soğan ve salatalık turşusu.",
+                "price": "470 TL"
+            },
+            {
+                "item": "CLASSIC SMASH",
+                "itemDesc": "120gr smash köfte,\ncift burger peyniri, burger sosu,\nbeyaz soğan ve Bunter turşusu.",
+                "price": "450 TL"
+            },
+            {
+                "item": "MISO SMASH BURGER",
+                "itemDesc": "120gr smash köfte,\ncift burger peyniri, Bunter sos,\nizgara soğan ve Bunter turşusu.",
+                "price": "470 TL"
+            },
+            {
+                "item": "SMOKY BACON BURGER",
+                "itemDesc": "120gr smash köfte,\ncift burger peyniri, dana bacon,\nkavrulmuş karabiberli sarımsaklı mayonez\nve çitir soğan",
+                "price": "480 TL"
+            },
+            {
+                "item": "BUNTER CHICKEN",
+                "itemDesc": "Çitir tavuk, burger peyniri,\nballı hardal veya acılı lime mayonez\nve coleslaw.",
+                "price": "390 TL"
+            }
+        ],
+        "fries": [
+            {
+                "item": "Klasik Patates",
+                "itemDesc": "",
+                "price": "120 TL"
+            },
+            {
+                "item": "Baharatli Patates",
+                "itemDesc": "",
+                "price": "120 TL"
+            },
+            {
+                "item": "Trüflü Patates",
+                "itemDesc": "",
+                "price": "170 TL"
+            }
+        ],
+        "beverages": [
+            {
+                "item": "El Yapimi Limonata",
+                "itemDesc": "",
+                "price": "100 TL"
+            },
+            {
+                "item": "Kola",
+                "itemDesc": "",
+                "price": "80 TL"
+            },
+            {
+                "item": "Ice Tea",
+                "itemDesc": "",
+                "price": "80 TL"
+            },
+            {
+                "item": "Fanta",
+                "itemDesc": "",
+                "price": "80 TL"
+            },
+            {
+                "item": "Uludağ Gazoz",
+                "itemDesc": "",
+                "price": "80 TL"
+            },
+            {
+                "item": "Americano",
+                "itemDesc": "",
+                "price": "80 TL"
+            },
+            {
+                "item": "Latte",
+                "itemDesc": "",
+                "price": "90 TL"
+            },
+            {
+                "item": "Su",
+                "itemDesc": "",
+                "price": "20 TL"
+            }
+        ],
+        "sauces": [
+            {
+                "item": "Sweet Chili",
+                "itemDesc": "",
+                "price": "120 TL"
+            },
+            {
+                "item": "Bunter Sos",
+                "itemDesc": "",
+                "price": "120 TL"
+            },
+            {
+                "item": "Bunter Ranch",
+                "itemDesc": "",
+                "price": "170 TL"
+            },
+            {
+                "item": "Ketçap",
+                "itemDesc": "",
+                "price": ""
+            },
+            {
+                "item": "Mayonez",
+                "itemDesc": "",
+                "price": ""
+            },
+            {
+                "item": "Hardal",
+                "itemDesc": "",
+                "price": ""
+            },
+            {
+                "item": "Acilı Sos",
+                "itemDesc": "",
+                "price": ""
+            }
+        ],
+        "extras": [
+            {
+                "item": "İlave Köfte",
+                "itemDesc": "",
+                "price": "80 TL"
+            },
+            {
+                "item": "Ekstra Sos",
+                "itemDesc": "",
+                "price": "20 TL"
+            },
+            {
+                "item": "Ekstra Cheddar",
+                "itemDesc": "",
+                "price": "20 TL"
+            },
+            {
+                "item": "Menüye Çevir!",
+                "itemDesc": "Burgerini 170 TL karşılığında içecek + patates ile menüye çevirebilirsin.",
+                "price": ""
+            }
+        ],
+        "dessert": [
+            {
+                "item": "Tiramisu",
+                "itemDesc": "",
+                "price": "170 TL"
+            }
+        ]
+    }
+}

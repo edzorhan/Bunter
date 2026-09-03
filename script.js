@@ -39,7 +39,7 @@ function renderMenu(category) {
     
     const categoryData = menuData.menu[category];
     const categoryNames = {
-        burgers: '🍔 BURGERS',
+        burgers: '🍔 BURGERLER',
         fries: '🍟 PATATES',
         beverages: '🥤 İÇECEKLER',
         sauces: '🧴 SOSLAR',
@@ -55,6 +55,33 @@ function renderMenu(category) {
     title.className = 'category-title';
     title.textContent = categoryNames[category];
     categoryDiv.appendChild(title);
+
+    if (category === 'burgers') {
+        const featuredExtras = (menuData.menu.extras || []).filter(item => item.featured);
+        if (featuredExtras.length > 0) {
+            const featuredDiv = document.createElement('div');
+            featuredDiv.className = 'featured-extras';
+            featuredDiv.innerHTML = `
+                <div class="featured-extras-heading">
+                    <span class="featured-extras-kicker">BURGERİNİ YÜKSELT</span>
+                    <span class="featured-extras-note">İstersen ekstra lezzet kat</span>
+                </div>
+                <div class="featured-extra-options">
+                    ${featuredExtras.map(item => `
+                        <button class="featured-extra" type="button" data-category="extras">
+                            <span class="featured-extra-icon">${getFeaturedExtraIcon(item.featured)}</span>
+                            <span class="featured-extra-info">
+                                <strong>${item.item}</strong>
+                                <small>${getFeaturedExtraDescription(item)}</small>
+                            </span>
+                            <span class="featured-extra-price">${item.price || '170 TL'}</span>
+                        </button>
+                    `).join('')}
+                </div>
+            `;
+            categoryDiv.appendChild(featuredDiv);
+        }
+    }
     
     const itemsDiv = document.createElement('div');
     itemsDiv.className = 'menu-items';
@@ -114,6 +141,26 @@ function renderMenu(category) {
     
     categoryDiv.appendChild(itemsDiv);
     container.appendChild(categoryDiv);
+}
+
+function getFeaturedExtraIcon(featuredType) {
+    const icons = {
+        'double-patty': '🍔',
+        'menu-upgrade': '🍟',
+        'extra-sauce': '🧴',
+        'extra-cheddar': '🧀'
+    };
+    return icons[featuredType] || '➕';
+}
+
+function getFeaturedExtraDescription(item) {
+    const descriptions = {
+        'double-patty': 'Burgerine bir köfte daha ekle',
+        'menu-upgrade': 'Patates + içecek dahil',
+        'extra-sauce': 'Burgerine ekstra sos ekle',
+        'extra-cheddar': 'Burgerine ekstra cheddar ekle'
+    };
+    return descriptions[item.featured] || item.itemDesc || 'Ekstra lezzet kat';
 }
 
 function openImageModal(imageSrc, itemName) {

@@ -132,22 +132,26 @@
             {
                 "item": "İlave Köfte",
                 "itemDesc": "",
-                "price": "80 TL"
+                "price": "80 TL",
+                "featured": "double-patty"
             },
             {
                 "item": "Ekstra Sos",
                 "itemDesc": "",
-                "price": "20 TL"
+                "price": "20 TL",
+                "featured": "extra-sauce"
             },
             {
                 "item": "Ekstra Cheddar",
                 "itemDesc": "",
-                "price": "20 TL"
+                "price": "20 TL",
+                "featured": "extra-cheddar"
             },
             {
                 "item": "Menüye Çevir!",
                 "itemDesc": "Burgerini 170 TL karşılığında içecek + patates ile menüye çevirebilirsin.",
-                "price": ""
+                "price": "",
+                "featured": "menu-upgrade"
             }
         ],
         "dessert": [

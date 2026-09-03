@@ -144,6 +144,72 @@ body {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
+.menu-item-body {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.menu-item-content {
+    min-width: 0;
+    flex: 1;
+}
+
+.item-image {
+    width: 72px;
+    height: 72px;
+    flex: 0 0 72px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.has-image {
+    cursor: pointer;
+}
+
+.has-image:focus-visible {
+    outline: 3px solid var(--accent-yellow);
+    outline-offset: 2px;
+}
+
+.image-modal[hidden] {
+    display: none;
+}
+
+.image-modal {
+    position: fixed;
+    inset: 0;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.image-modal-content {
+    max-width: min(90vw, 700px);
+    max-height: 85vh;
+    border-radius: 10px;
+    object-fit: contain;
+}
+
+.image-modal-close {
+    position: absolute;
+    top: 12px;
+    right: 18px;
+    border: 0;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    font-size: 2.5rem;
+    line-height: 1;
+}
+
+.modal-open {
+    overflow: hidden;
+}
+
 .menu-item:hover {
     border-color: var(--bunter-red);
     box-shadow: 0 8px 20px rgba(171, 31, 31, 0.15);

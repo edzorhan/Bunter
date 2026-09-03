@@ -4,27 +4,32 @@
             {
                 "item": "BUNTER BURGER",
                 "itemDesc": "120gr smash köfte,\ncift burger peyniri, trüf mayo,\nkaramelize soğan ve salatalık turşusu.",
-                "price": "450 TL"
+                "price": "450 TL",
+                "image": "img/tavuk.jpeg"
             },
             {
                 "item": "CLASSIC SMASH",
                 "itemDesc": "120gr smash köfte,\ncift burger peyniri, burger sosu,\nbeyaz soğan ve Bunter turşusu.",
-                "price": "430 TL"
+                "price": "430 TL",
+                "image": "img/tavuk.jpeg"
             },
             {
                 "item": "MISO SMASH BURGER",
                 "itemDesc": "120gr smash köfte,\ncift burger peyniri, Bunter sos,\nizgara soğan ve Bunter turşusu.",
-                "price": "450 TL"
+                "price": "450 TL",
+                "image": "img/tavuk.jpeg"
             },
             {
                 "item": "SMOKY BACON BURGER",
                 "itemDesc": "120gr smash köfte,\ncift burger peyniri, dana bacon,\nkavrulmuş karabiberli sarımsaklı mayonez\nve çıtır soğan",
-                "price": "470 TL"
+                "price": "470 TL",
+                "image": "img/tavuk.jpeg"
             },
             {
                 "item": "BUNTER CHICKEN",
                 "itemDesc": "Çıtır tavuk, burger peyniri,\nballı hardal veya acılı lime mayonez\nve coleslaw.",
-                "price": "370 TL"
+                "price": "370 TL",
+                "image": "img/tavuk.jpeg"
             }
         ],
         "fries": [

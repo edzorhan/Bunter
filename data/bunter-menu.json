@@ -2,26 +2,26 @@
     "menu": {
         "burgers": [
             {
-                "item": "BUNTER BURGER",
+                "item": "TRÜF BURGER",
                 "itemDesc": "120gr smash köfte,\ncift burger peyniri, trüf mayo,\nkaramelize soğan ve salatalık turşusu.",
                 "price": "450 TL",
                 "image": "img/tavuk.jpeg"
             },
             {
                 "item": "CLASSIC SMASH",
-                "itemDesc": "120gr smash köfte,\ncift burger peyniri, burger sosu,\nbeyaz soğan ve Bunter turşusu.",
+                "itemDesc": "120gr smash köfte,\nçift burger peyniri, burger sosu,\nbeyaz soğan ve Bunter turşusu.",
                 "price": "430 TL",
                 "image": "img/tavuk.jpeg"
             },
             {
-                "item": "MISO SMASH BURGER",
-                "itemDesc": "120gr smash köfte,\ncift burger peyniri, Bunter sos,\nizgara soğan ve Bunter turşusu.",
+                "item": "BUNTER BURGER",
+                "itemDesc": "120gr smash köfte,\nçift burger peyniri, Bunter sos,\nızgara soğan ve Bunter turşusu.",
                 "price": "450 TL",
                 "image": "img/tavuk.jpeg"
             },
             {
-                "item": "SMOKY BACON BURGER",
-                "itemDesc": "120gr smash köfte,\ncift burger peyniri, dana bacon,\nkavrulmuş karabiberli sarımsaklı mayonez\nve çıtır soğan",
+                "item": "BACON BURGER",
+                "itemDesc": "120gr smash köfte,\nçift burger peyniri, dana bacon,\nkavrulmuş karabiberli sarımsaklı mayonez\nve çıtır soğan",
                 "price": "470 TL",
                 "image": "img/tavuk.jpeg"
             },
@@ -53,10 +53,10 @@
             {
                 "item": "El Yapimi Limonata",
                 "itemDesc": "",
-                "price": "100 TL"
+                "price": "80 TL"
             },
             {
-                "item": "Kola",
+                "item": "Coca Cola",
                 "itemDesc": "",
                 "price": "80 TL"
             },
@@ -76,6 +76,11 @@
                 "price": "80 TL"
             },
             {
+                "item": "Espresso",
+                "itemDesc": "",
+                "price": "70 TL"
+            },
+            {
                 "item": "Americano",
                 "itemDesc": "",
                 "price": "80 TL"
@@ -84,6 +89,11 @@
                 "item": "Latte",
                 "itemDesc": "",
                 "price": "90 TL"
+            },
+            {
+                "item": "Soda",
+                "itemDesc": "",
+                "price": "40 TL"
             },
             {
                 "item": "Su",
@@ -106,26 +116,6 @@
                 "item": "Bunter Ranch",
                 "itemDesc": "",
                 "price": "30 TL"
-            },
-            {
-                "item": "Ketçap",
-                "itemDesc": "",
-                "price": ""
-            },
-            {
-                "item": "Mayonez",
-                "itemDesc": "",
-                "price": ""
-            },
-            {
-                "item": "Hardal",
-                "itemDesc": "",
-                "price": ""
-            },
-            {
-                "item": "Acılı Sos",
-                "itemDesc": "",
-                "price": ""
             }
         ],
         "extras": [

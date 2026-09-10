@@ -56,10 +56,11 @@ function renderMenu(category) {
     title.textContent = categoryNames[category];
     categoryDiv.appendChild(title);
 
+    let featuredDiv = null;
     if (category === 'burgers') {
         const featuredExtras = (menuData.menu.extras || []).filter(item => item.featured);
         if (featuredExtras.length > 0) {
-            const featuredDiv = document.createElement('div');
+            featuredDiv = document.createElement('div');
             featuredDiv.className = 'featured-extras';
             featuredDiv.innerHTML = `
                 <div class="featured-extras-heading">
@@ -79,7 +80,6 @@ function renderMenu(category) {
                     `).join('')}
                 </div>
             `;
-            categoryDiv.appendChild(featuredDiv);
         }
     }
     
@@ -140,6 +140,9 @@ function renderMenu(category) {
     });
     
     categoryDiv.appendChild(itemsDiv);
+    if (featuredDiv) {
+        categoryDiv.appendChild(featuredDiv);
+    }
     container.appendChild(categoryDiv);
 }
 

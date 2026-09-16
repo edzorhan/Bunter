@@ -108,14 +108,12 @@ function renderMenu(category) {
                 </div>
             `;
         } else {
-            // Item without description (price next to title)
+            // Item without description (price under title, like burgers)
             itemElement.innerHTML = `
                 <div class="menu-item-body">
                     <div class="menu-item-content">
-                        <div class="item-row">
-                            <div class="item-title">${item.item}</div>
-                            <div class="item-price">${item.price}</div>
-                        </div>
+                        <div class="item-title">${item.item}</div>
+                        <div class="item-price">${item.price}</div>
                     </div>
                     ${itemImage}
                 </div>

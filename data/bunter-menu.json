@@ -4,51 +4,60 @@
             {
                 "item": "TRÜF BURGER",
                 "itemDesc": "120gr smash köfte,\nçift burger peyniri, trüf mayo,\nkaramelize soğan ve salatalık turşusu.",
-                "price": "450 TL"
+                "price": "450 TL",
+                "image": "img/trufburger.jpeg"
             },
             {
                 "item": "CLASSIC SMASH",
                 "itemDesc": "120gr smash köfte,\nçift burger peyniri, burger sosu,\nbeyaz soğan ve Bunter turşusu.",
-                "price": "430 TL"
+                "price": "430 TL",
+                "image": "img/klasikburger.jpeg"
             },
             {
                 "item": "BUNTER BURGER",
                 "itemDesc": "120gr smash köfte,\nçift burger peyniri, Bunter sos,\nızgara soğan ve Bunter turşusu.",
-                "price": "450 TL"
+                "price": "450 TL",
+                "image": "img/bunterburger.jpeg"
             },
             {
                 "item": "BACON BURGER",
                 "itemDesc": "120gr smash köfte,\nçift burger peyniri, dana bacon,\nkavrulmuş karabiberli sarımsaklı mayonez\nve çıtır soğan",
-                "price": "470 TL"
+                "price": "470 TL",
+                "image": "img/baconburger.jpeg"
             },
             {
                 "item": "BUNTER CHICKEN",
                 "itemDesc": "Çıtır tavuk, burger peyniri,\nballı hardal veya acılı lime mayonez\nve coleslaw.",
-                "price": "370 TL"
+                "price": "370 TL",
+                "image": "img/tavukburger.jpeg"
             }
         ],
         "fries": [
             {
                 "item": "Klasik Patates",
                 "itemDesc": "",
-                "price": "120 TL"
+                "price": "120 TL",
+                "image": "img/fries.jpeg"
             },
             {
                 "item": "Baharatli Patates",
                 "itemDesc": "",
-                "price": "120 TL"
+                "price": "120 TL",
+                "image": "img/fries.jpeg"
             },
             {
                 "item": "Trüflü Patates",
                 "itemDesc": "",
-                "price": "160 TL"
+                "price": "160 TL",
+                "image": "img/fries.jpeg"
             }
         ],
         "beverages": [
             {
                 "item": "El Yapimi Limonata",
                 "itemDesc": "",
-                "price": "80 TL"
+                "price": "80 TL",
+                "image": "img/limonata.jpeg"
             },
             {
                 "item": "Coca Cola",
@@ -143,7 +152,8 @@
             {
                 "item": "Tiramisu",
                 "itemDesc": "",
-                "price": "170 TL"
+                "price": "170 TL",
+                "image": "img/tiramisu.jpeg"
             }
         ]
     }
